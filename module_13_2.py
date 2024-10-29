@@ -10,7 +10,7 @@ dp = Dispatcher(bot, MemoryStorage)
 
 @dp.message_handler(commands=['start'])
 async def start_message(message):
-    print("Jopa message")
+    print("Привет! Я бот помогающий твоему здоровью")
 
 @dp.message_handler()
 async def all_message(message):
